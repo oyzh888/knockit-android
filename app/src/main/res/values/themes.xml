@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Base application theme.
+        Uses a dark background to match the Knockit design language.
+        Compose Material3 theming is applied in code via MaterialTheme { }.
+    -->
+    <style name="Theme.Knockit" parent="android:Theme.Material.NoTitleBar">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Knockit color palette
+        Mirrors the iOS dark-background + vibrant-icon aesthetic.
+        Material3 dynamic color is used at runtime; these are the static fallbacks.
+    -->
+
+    <!-- Backgrounds -->
+    <color name="background_dark">#FF0F0F14</color>       <!-- near-black canvas  -->
+    <color name="background_card">#FF1C1C23</color>       <!-- card surface        -->
+    <color name="background_sheet">#FF252530</color>      <!-- bottom sheet        -->
+
+    <!-- Primary brand -->
+    <color name="primary">#FF6C63FF</color>               <!-- soft purple         -->
+    <color name="primary_variant">#FF8B84FF</color>
+    <color name="on_primary">#FFFFFFFF</color>
+
+    <!-- Reminder-type accent colours (match iOS icon colours) -->
+    <color name="accent_custom">#FF6C63FF</color>         <!-- purple              -->
+    <color name="accent_baby">#FFFFA726</color>           <!-- amber               -->
+    <color name="accent_prayer">#FF66BB6A</color>         <!-- green               -->
+    <color name="accent_medicine">#FFEF5350</color>       <!-- red                 -->
+    <color name="accent_water">#FF29B6F6</color>          <!-- light blue          -->
+    <color name="accent_exercise">#FFFF7043</color>       <!-- deep orange         -->
+    <color name="accent_sleep">#FF5C6BC0</color>          <!-- indigo              -->
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#99FFFFFF</color>        <!-- 60 % white          -->
+    <color name="text_disabled">#4DFFFFFF</color>        <!-- 30 % white          -->
+
+    <!-- Dividers / outlines -->
+    <color name="divider">#1FFFFFFF</color>               <!-- 12 % white          -->
+
+    <!-- Status / semantic -->
+    <color name="success">#FF4CAF50</color>
+    <color name="error">#FFCF6679</color>
+    <color name="warning">#FFFFB74D</color>
+</resources>

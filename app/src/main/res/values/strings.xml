@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Knockit</string>
+
+    <!-- Reminder type display names -->
+    <string name="type_custom">Custom</string>
+    <string name="type_baby">Baby</string>
+    <string name="type_prayer">Prayer</string>
+    <string name="type_medicine">Medicine</string>
+    <string name="type_water">Water</string>
+    <string name="type_exercise">Exercise</string>
+    <string name="type_sleep">Sleep</string>
+
+    <!-- Default reminder titles -->
+    <string name="default_title_custom">Reminder</string>
+    <string name="default_title_baby">Baby Care</string>
+    <string name="default_title_prayer">Prayer Time</string>
+    <string name="default_title_medicine">Take Medicine</string>
+    <string name="default_title_water">Drink Water</string>
+    <string name="default_title_exercise">Time to Exercise</string>
+    <string name="default_title_sleep">Bedtime</string>
+
+    <!-- General UI strings -->
+    <string name="add_reminder">Add Reminder</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="delete_reminder">Delete Reminder</string>
+    <string name="reminder_active">Active</string>
+    <string name="reminder_inactive">Inactive</string>
+    <string name="no_reminders">No reminders yet.\nTap + to add one.</string>
+    <string name="channel_name">Knockit Reminders</string>
+    <string name="channel_description">Notifications for your Knockit reminders</string>
+    <string name="notification_tap_to_open">Tap to open Knockit</string>
+</resources>
