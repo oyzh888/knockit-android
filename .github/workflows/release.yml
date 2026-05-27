@@ -39,6 +39,7 @@ jobs:
 
       - name: Decode keystore from secret
         run: |
+          mkdir -p app/keystore
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > app/keystore/knockit-release.jks
 
       - name: Create keystore.properties
