@@ -33,7 +33,7 @@ object DateUtils {
                 val temporal = formatter.parseBest(
                     normalized,
                     ZonedDateTime::from,
-                    { t -> LocalDateTime.from(t).atZone(ZoneId.systemDefault()) }
+                    java.time.temporal.TemporalQuery { t -> LocalDateTime.from(t).atZone(ZoneId.systemDefault()) }
                 )
                 Instant.from(temporal).toEpochMilli()
             } else {

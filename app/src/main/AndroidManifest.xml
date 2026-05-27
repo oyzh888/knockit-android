@@ -53,6 +53,11 @@
             android:name=".receiver.AlarmReceiver"
             android:exported="false" />
 
+        <!-- Notification receiver — fired by AlarmManager for all reminders -->
+        <receiver
+            android:name=".services.NotificationReceiver"
+            android:exported="false" />
+
     </application>
 
 </manifest>

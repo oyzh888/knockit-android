@@ -52,8 +52,8 @@ fun HeaderView(
             )
             Spacer(modifier = Modifier.width(8.dp))
             Text(
-                text = "🔔", // 🔔
-                fontSize = 28.sp,
+                text = "🔔",
+                style = MaterialTheme.typography.headlineMedium.copy(fontSize = 28.sp),
             )
         }
 
