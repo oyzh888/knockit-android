@@ -3,6 +3,7 @@ package com.knockit.app.services
 import android.content.Context
 import java.text.SimpleDateFormat
 import java.time.Instant
+import java.time.LocalDateTime
 import java.time.ZoneId
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
@@ -32,7 +33,7 @@ object DateUtils {
                 val temporal = formatter.parseBest(
                     normalized,
                     ZonedDateTime::from,
-                    { t -> t.atZone(ZoneId.systemDefault()) }
+                    { t -> LocalDateTime.from(t).atZone(ZoneId.systemDefault()) }
                 )
                 Instant.from(temporal).toEpochMilli()
             } else {
